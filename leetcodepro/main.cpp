@@ -35,6 +35,8 @@
 #include "validParentheses.h"
 #include "validBST.h"
 #include "removeElement.h"
+#include "palindromeNumber.h"
+#include "LengthOfLongestSubstring.h"
 using namespace std;
 
 /* Reverse Words */
@@ -629,5 +631,7 @@ int main(int argc, const char * argv[])
 //    plusOneTest();
 //    validParenthesesTest();
 //    validBSTTest();
-    removeElementTest();
+//    removeElementTest();
+//    palindromNumberTest();
+    lengthOfLongestSubstringTest();
 }

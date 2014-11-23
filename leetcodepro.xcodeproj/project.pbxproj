@@ -20,6 +20,7 @@
 		0A2DAA861A0C590800C456D2 /* flattenBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DAA841A0C590800C456D2 /* flattenBinaryTree.cpp */; };
 		0A3E8CDD1A17613700B8ED5C /* validBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E8CDB1A17613700B8ED5C /* validBST.cpp */; };
 		0A3E8CE11A1840FA00B8ED5C /* removeElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E8CDF1A1840FA00B8ED5C /* removeElement.cpp */; };
+		0A3E8CE51A187BE100B8ED5C /* palindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E8CE31A187BE100B8ED5C /* palindromeNumber.cpp */; };
 		0A3EFC8419FBE16100F3FFFF /* towSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EFC8219FBE16100F3FFFF /* towSum.cpp */; };
 		0A3EFC8819FD223500F3FFFF /* searchInsert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EFC8619FD223500F3FFFF /* searchInsert.cpp */; };
 		0A3EFC8C19FD34DA00F3FFFF /* climbstairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EFC8A19FD34DA00F3FFFF /* climbstairs.cpp */; };
@@ -29,6 +30,7 @@
 		0A4B3A6419BB5A31001A9534 /* leetcodepro.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A4B3A6319BB5A31001A9534 /* leetcodepro.1 */; };
 		0A4B3A6C19BB5BEA001A9534 /* reverseWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B3A6A19BB5BEA001A9534 /* reverseWords.cpp */; };
 		0A4B3A6E19BB6194001A9534 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B3A6D19BB6194001A9534 /* main.cpp */; };
+		0A58F71C1A1CB9A000C91ABE /* LengthOfLongestSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A58F71A1A1CB9A000C91ABE /* LengthOfLongestSubstring.cpp */; };
 		0A9FDC5A19FA301700501A33 /* zigzagOrderLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FDC5819FA301700501A33 /* zigzagOrderLevel.cpp */; };
 		0A9FDC5E19FA305600501A33 /* longestConsecutive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FDC5C19FA305600501A33 /* longestConsecutive.cpp */; };
 		0A9FDC6219FA9C2500501A33 /* longestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FDC6019FA9C2500501A33 /* longestCommonPrefix.cpp */; };
@@ -82,6 +84,8 @@
 		0A3E8CDC1A17613700B8ED5C /* validBST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validBST.h; sourceTree = "<group>"; };
 		0A3E8CDF1A1840FA00B8ED5C /* removeElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = removeElement.cpp; sourceTree = "<group>"; };
 		0A3E8CE01A1840FA00B8ED5C /* removeElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = removeElement.h; sourceTree = "<group>"; };
+		0A3E8CE31A187BE100B8ED5C /* palindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = palindromeNumber.cpp; sourceTree = "<group>"; };
+		0A3E8CE41A187BE100B8ED5C /* palindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = palindromeNumber.h; sourceTree = "<group>"; };
 		0A3EFC8219FBE16100F3FFFF /* towSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = towSum.cpp; sourceTree = "<group>"; };
 		0A3EFC8319FBE16100F3FFFF /* towSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = towSum.h; sourceTree = "<group>"; };
 		0A3EFC8619FD223500F3FFFF /* searchInsert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = searchInsert.cpp; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 		0A4B3A6319BB5A31001A9534 /* leetcodepro.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = leetcodepro.1; sourceTree = "<group>"; };
 		0A4B3A6A19BB5BEA001A9534 /* reverseWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverseWords.cpp; sourceTree = "<group>"; };
 		0A4B3A6D19BB6194001A9534 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A58F71A1A1CB9A000C91ABE /* LengthOfLongestSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthOfLongestSubstring.cpp; sourceTree = "<group>"; };
+		0A58F71B1A1CB9A000C91ABE /* LengthOfLongestSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LengthOfLongestSubstring.h; sourceTree = "<group>"; };
 		0A9FDC5819FA301700501A33 /* zigzagOrderLevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zigzagOrderLevel.cpp; sourceTree = "<group>"; };
 		0A9FDC5919FA301700501A33 /* zigzagOrderLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zigzagOrderLevel.h; sourceTree = "<group>"; };
 		0A9FDC5C19FA305600501A33 /* longestConsecutive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = longestConsecutive.cpp; sourceTree = "<group>"; };
@@ -254,6 +260,8 @@
 		0A3E8CE21A1876FA00B8ED5C /* Palindrome Number */ = {
 			isa = PBXGroup;
 			children = (
+				0A3E8CE31A187BE100B8ED5C /* palindromeNumber.cpp */,
+				0A3E8CE41A187BE100B8ED5C /* palindromeNumber.h */,
 			);
 			path = "Palindrome Number";
 			sourceTree = "<group>";
@@ -322,6 +330,7 @@
 		0A4B3A6019BB5A31001A9534 /* leetcodepro */ = {
 			isa = PBXGroup;
 			children = (
+				0A58F7191A1CB98600C91ABE /* Longest Substring Without Repeating Characters */,
 				0A3E8CE21A1876FA00B8ED5C /* Palindrome Number */,
 				0A3E8CDE1A1840EA00B8ED5C /* Remove Element  */,
 				0A3E8CDA1A17610A00B8ED5C /* Validate Binary Search Tree */,
@@ -359,6 +368,15 @@
 				0A3EFC9219FDEFB300F3FFFF /* common.cpp */,
 			);
 			path = leetcodepro;
+			sourceTree = "<group>";
+		};
+		0A58F7191A1CB98600C91ABE /* Longest Substring Without Repeating Characters */ = {
+			isa = PBXGroup;
+			children = (
+				0A58F71A1A1CB9A000C91ABE /* LengthOfLongestSubstring.cpp */,
+				0A58F71B1A1CB9A000C91ABE /* LengthOfLongestSubstring.h */,
+			);
+			path = "Longest Substring Without Repeating Characters";
 			sourceTree = "<group>";
 		};
 		0A9FDC5719FA301700501A33 /* zigzagOrderLevel */ = {
@@ -531,6 +549,7 @@
 				0A2DAA2C1A0647B800C456D2 /* atoi.cpp in Sources */,
 				0AE936BB1A10835A002FE230 /* MinStack.cpp in Sources */,
 				0A4B3A6C19BB5BEA001A9534 /* reverseWords.cpp in Sources */,
+				0A3E8CE51A187BE100B8ED5C /* palindromeNumber.cpp in Sources */,
 				0A0E54661A14FE0F0010E70E /* plusOne.cpp in Sources */,
 				0A0E54621A14EBA60010E70E /* sameTree.cpp in Sources */,
 				0A019B521A16FE35008F68D8 /* validParentheses.cpp in Sources */,
@@ -543,6 +562,7 @@
 				0A492FFA19FB6AD10058BAE9 /* countandsay.cpp in Sources */,
 				0A0E54511A13AACA0010E70E /* minDepth.cpp in Sources */,
 				0A3EFC9019FDE02800F3FFFF /* isBalanced.cpp in Sources */,
+				0A58F71C1A1CB9A000C91ABE /* LengthOfLongestSubstring.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
