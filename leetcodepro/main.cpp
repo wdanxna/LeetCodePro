@@ -37,6 +37,44 @@
 #include "removeElement.h"
 #include "palindromeNumber.h"
 #include "LengthOfLongestSubstring.h"
+#include "addTwoNumbers.h"
+#include "longestPalindrome.h"
+#include "containerWithMostWater.h"
+#include "searchForARange.h"
+#include "ThreeSum.h"
+#include "threeSumClosest.h"
+#include "letterCombinations.h"
+#include "removeDuplicates.h"
+#include "HouseRobber.h"
+#include "maximumSum.h"
+#include "strstr.h"
+#include "findMedianSortedArrays.h"
+#include "longestValidParentheses.h"
+#include "maxSubArray.h"
+#include "minDistance.h"
+#include "permute.h"
+#include "permuteUnique.h"
+#include "wordLadder.h"
+#include "findLadders.h"
+#include "SurroundedRegions.h"
+#include "postorderTraversal.h"
+#include "maximumGap.h"
+#include "oddEven.h"
+#include "selfProduct.h"
+#include "bubbleSort.h"
+#include "quickSort.h"
+#include "HappyNumber.h"
+#include "removeElements.hpp"
+#include "addDigits.hpp"
+#include "IntegerReplacement.hpp"
+#include "getSum.hpp"
+#include "findMaxAverage.hpp"
+#include "AverageOfLevels.hpp"
+#include "JudgeSquareSum.hpp"
+#include "searchforarange.hpp"
+#include "regularExpressionMatch.hpp"
+#include "solveEquation.hpp"
+
 using namespace std;
 
 /* Reverse Words */
@@ -348,33 +386,33 @@ public:
     }
 };
 
-void Swap(int &a, int &b) {
-    int temp = a;
-    a = b;
-    b = temp;
-}
-void permutations(vector<int> &num, int k, unsigned long m, vector<vector<int>> &res) {
-    if (k == m) {
-        res.push_back(num);
-        for (int i=0; i<num.size(); i++) {
-            cout << num[i];
-        }
-        cout << endl;
-    }
-    else {
-        for (int i = k; i <= m; i++) {
-            Swap(num[k], num[i]);
-            permutations(num, k+1, m, res);
-            Swap(num[k], num[i]);
-        }
-    }
-}
-
-vector<vector<int>> permute(vector<int> &num) {
-    vector<vector<int>> result;
-    permutations(num, 0, num.size()-1, result);
-    return result;
-}
+//void Swap(int &a, int &b) {
+//    int temp = a;
+//    a = b;
+//    b = temp;
+//}
+//void permutations(vector<int> &num, int k, unsigned long m, vector<vector<int>> &res) {
+//    if (k == m) {
+//        res.push_back(num);
+//        for (int i=0; i<num.size(); i++) {
+//            cout << num[i];
+//        }
+//        cout << endl;
+//    }
+//    else {
+//        for (int i = k; i <= m; i++) {
+//            Swap(num[k], num[i]);
+//            permutations(num, k+1, m, res);
+//            Swap(num[k], num[i]);
+//        }
+//    }
+//}
+//
+//vector<vector<int>> permute(vector<int> &num) {
+//    vector<vector<int>> result;
+//    permutations(num, 0, num.size()-1, result);
+//    return result;
+//}
 
 ListNode *swapPairs(ListNode *head) {
     if (!head) return head;
@@ -431,40 +469,6 @@ int maxSum3(int *num, int len) {
         if (sum < 0) sum = num[i] < 0? 0 : num[i];
         if (sum > max) max = sum;
     }
-    return max;
-}
-
-int longestValidParentheses(string s) {
-    int max = 0;
-    stack<int> st;
-    int mark[s.size()];
-    for (int i=0; i<s.size(); i++) {
-        mark[i] = 0;
-    }
-    
-    for (int i = 0; i < s.size(); i++) {
-        if (s[i] == '(') {
-            st.push(i);
-        }
-        else if (st.size() > 0) {
-            for (int j=st.top(); j<= i; j++) {
-                mark[j] = 1;
-            }
-            st.pop();
-        }
-    }
-    
-    int j = 0;
-    for (int i=0; i<s.size(); i++) {
-        if (mark[i] == 1) {
-            j++;
-            if (j > max) max = j;
-        }
-        else {
-            j = 0;
-        }
-    }
-    
     return max;
 }
 
@@ -527,7 +531,7 @@ void wb(string s, int left, int right, unordered_set<string> &dict, vector<strin
 vector<string> wordBreakII(string s,  unordered_set<string> &dict) {
     vector<string> ret;
     vector<string> t;
-    wb(s, 0, s.size()-1, dict,t, ret);
+    wb(s, 0, (int)s.size()-1, dict,t, ret);
     return ret;
 }
 
@@ -633,5 +637,51 @@ int main(int argc, const char * argv[])
 //    validBSTTest();
 //    removeElementTest();
 //    palindromNumberTest();
-    lengthOfLongestSubstringTest();
+//    lengthOfLongestSubstringTest();
+//    addTwoNumbersTest();
+//    longestPalindormTest();
+//    containerWithMostWaterTest();
+//    searchForARangeTest();
+//    ThreeSumTest();
+//    threeSumClosestTest();
+//    letterCombinationsTest();
+//    removeDuplicatesTest();
+//    maximumSumTest();
+//    strstrTest();
+//    findMedianOfTwoSortedArraysTest();
+//    longestValidParenthesesTest();
+//    maxSubArrayTest();
+//    minDistanceTest();
+//    permuteTest();
+//    permutationUniqueTest();
+//    longestPalindormTest();
+//    houseRobberTest();
+//    ladderLengthTest();
+//    findLaddersTest();
+//    surroundedRegionsTest();
+//    postorderTraversalTest();
+//    maximumGapTest();
+//    oddEvenTest();
+//    selfProduct();
+//    bubbleSortTest();
+//    quickSortTest();
+//    HappyNumberTest();
+//    removeElementsTest();
+//    addDigitsTest();
+//    integerReplacementTest();
+//    getSumTest();
+    
+//    FindMaxAverage fa;
+//    fa.testFindMaxAverage();
+    
+//    AverageOfLevels av;
+//    av.testAverageOfLevels();
+    
+//    JudgeSquareSum js;
+//    js.testJudgeSquareSum();
+    
+//    minStackTest();
+//    search_for_a_range_test();
+//    regularMatchingTest();
+    solveEquationTest();
 }
